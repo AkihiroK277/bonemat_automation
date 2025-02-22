@@ -1,5 +1,5 @@
 # bonemat_automation
-This program automates all operations in Bonemat, including importing DICOM and Ansys CDB file, bonemat operation, and exporting Ansys CDB file.
+This script automates all operations in Bonemat, including importing DICOM and Ansys CDB file, bonemat operation, and exporting Ansys CDB file.
 
 ## About
  The automation is achieved by sending key inputs and click commands using `pyautomation` module.
