@@ -31,14 +31,14 @@ pyocr.tesseract.TESSERACT_CMD = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 Next, provide the following file paths
 ```
-# importing data of DICOM and .CDB
+# import data of DICOM and .CDB
 path_ctfolder = r"C:\Users\bio1\CTDate\DICOM"
 path_cdb = r"C:\Users\bio1\mesh_data.cdb"
 
 # calibration file for converting HU to E in bonemat operation
 path_calib = r"C:\Users\bio1\calibration.xml"
 
-# exporting .cdb file.
+# export .cdb file.
 # If you want to change the file name, modify the part of "bonemat_mesh".
 path_output = r"C:\Users\bio1\bonemat_mesh.cdb"
 ```
