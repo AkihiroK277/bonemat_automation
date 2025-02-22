@@ -18,7 +18,7 @@ pip install pyocr
 pip install Pillow
 ```
 
-This script also usess OCR for click actions. Please install following OCR module.
+This script uses OCR for click actions. Please install following OCR module.
 * [Link - Tesseract installer for Windows](https://github.com/UB-Mannheim/tesseract/wiki)
 
 ## Running
@@ -42,7 +42,7 @@ path_calib = r"C:\Users\bio1\calibration.xml"
 # If you want to change the file name, modify the part of "bonemat_mesh".
 path_output = r"C:\Users\bio1\bonemat_mesh.cdb"
 ```
-**In large data files, following processes may start before the loading is complete.**
+**In large data files, following key input may start before the loading is complete.**
 <br>Adjust the load time according to the file size.
 ```
 laodtime_ct = 2
